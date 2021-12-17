@@ -1,0 +1,322 @@
+html{
+  width: 100%;
+  font-family: "Garamond", Times, serif;
+}
+
+#main_header{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+  background-color: rgb(219, 240, 247);
+  border: 2px solid black;
+  width: 70%;
+}
+
+nav{
+  border: 2px solid rgb(219, 240, 247);
+  width:80%;
+  height:100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* unvisited link */
+a:link {
+  color: navy;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: coral;
+}
+
+/* selected link */
+a:active {
+  color: pink;
+}
+
+li{
+  display: inline;
+  font-size: 20px;
+  color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+ul
+{
+  text-align: center;
+  margin-left:auto; 
+  padding: 5px;
+  width: 60%;
+  margin-right:auto;
+}
+
+body{
+  width: 100%;
+  background-color: lightblue;
+}
+
+section{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+article{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid black;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  height: 10%;
+  float: left;
+}
+
+#box0
+{
+  border: 5px solid black;
+  background-color: white;
+  padding: 20px;
+  width: 1020px;
+  height: 250px;
+  border-radius: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#box3
+{
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 2%;
+  width: 70%;
+  height: 1365px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+}
+
+.block_text0
+{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 49%;
+  float: right;
+}
+
+
+.block_text1{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 49%;
+  float: left;
+}
+
+#clear0{
+  clear: both;
+  padding-top: 3%;
+}
+
+.block_text2
+{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 49%;
+  float: right;
+}
+
+
+.block_text3{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 49%;
+  float: left;
+}
+
+.block_text4{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#box4
+{
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 2%;
+  width: 70%;
+  height: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+}
+
+#box6
+{
+  border: 5px dotted black;
+  border-radius: 180px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(219, 240, 247);
+}
+
+.img0{
+  width: 400px;
+  height: 300px;
+}
+
+#centre_this{
+  text-align: center;
+}
+
+#pad_this{
+  border: 5px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#box7{
+  width: 70%;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
+
+#pad_this1{
+  padding-bottom: 2%;
+}
+
+#pad_this2{
+  padding-top: 2%;
+}
+
